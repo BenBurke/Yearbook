@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+       .container{
+          display:flex;
+          flex-flow:row wrap;
+          width:900px;
+          margin:0px auto;
+          padding:0;
+          border-color: black;
+          border-style: solid;
+          border-width: 1px;
+       }
+       .pic{
+          display: inline-block;
+          position: relative;
+          width:296px;
+          height:300px;
+          margin:0;
+          padding:1px;
+          border-color:red;
+          border-style:solid;
+          border-width: 1px;
+       }
+       .picture{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-size: cover;
+        background-position: center;
+        transition:all 250ms ease-in 0ms;
+       }
+       .pic:hover > .picture{
+        opacity:.9;
+        -webkit-transform:rotateZ(-15deg) scale(1.1,1.1) translate(-85%,10%);
+        box-shadow: 10px 10px 5px #888888;
+       }
+       .pic:hover > .description{
+        opacity:.9;
+        -webkit-transform:rotateZ(5deg) scale(1.1,1.1) translate(30%,10%);
+        box-shadow: 10px 10px 5px #888888;
+        background-color:white;
+       }
+
+       .pic:hover ~ .pic {
+         z-index: -1;
+       }
+        /* Styles go here */
+    </style>
+</head>
+
+<body>
+	<div class='container'>
+		<div class="pic">
+			<div class= "description">
+        <h1>June</h1>
+        I arrived in Beijing for a summer full of adventures. One of our first stops included the fabled Great Wall. There I made some new friends, met up with some old ones and together tackled the Great Wall of China.
+      </div>
+			<div class= "picture" style="background-image: url('images/greatwall_june_13.jpg');">
+			</div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>July</h1>
+      July took me farther inland. I spent a week at the Shaolin Temple learning the ancient arts of Chinese Martial Arts. Together we scaled several mountains, venturing to the edges of cliff-faces and into the clouds.
+      </div>
+      <div class= "picture" style="background-image: url('images/shaolin_july_13.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>August</h1>
+      Though I was sad to leave China, August brought me one of the greatest joys of my Yale career. I returned to school early to lead a group of 8 unsuspecting freshmen along the Appalachian trail. Together with my wonderful Co our crew managed to survive (probably thanks to our resident eagle scout...)
+      </div>
+      <div class= "picture" style="background-image: url('images/Foot_Aug_13.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>September</h1>
+      Junior Year brought with it the promise of many birthdays, here we started the year out right with Jane Darby! Happy Birthday JD
+      </div>
+      <div class= "picture" style="background-image: url('images/JDs_Sept_13.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>October</h1>
+      October is unconditionally the best month. This past October I turned 21! Every year around Halloween my suite always returns to MA to go to all kinds of haunted houses. It is a tradition that I cherish.
+      </div>
+      <div class= "picture" style="background-image: url('images/Halloween_Oct_13.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>November</h1>
+      Ahh. November always brings us to the GAME! So Yale didn't win...I think we are still up throughout the years. Regardless, it is the people you spend your time with, that is what is important
+      </div>
+      <div class= "picture" style="background-image: url('images/Game_Nov_14.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>December</h1>
+      Happy Holidays from Pierson!
+      </div>
+      <div class= "picture" style="background-image: url('images/Christmas_Dec_13.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>January</h1>
+      Shoutout Happy Birthday to Jeremy turning 21. One hell of a night and with additions from some long lost friends
+      </div>
+      <div class= "picture" style="background-image: url('images/Jeremys_Jan_14.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>February</h1>
+      Oh Hey Kate, thanks for letting me dress up extra fancy for your birthday party, and thank you alex for going along with it so that I wasn't the only kid in a Tux!
+      </div>
+      <div class= "picture" style="background-image: url('images/Kates_Feb_14.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>March</h1>
+      Happy Birthday Dad!
+      My Dreams to go to Disney were temporarily sidelined...Oh well, even a trip to the emergency room and surgery couldn't keep me away for long! And don't you worry, I will get back to the most magical place on earth soon!
+      </div>
+      <div class= "picture" style="background-image: url('images/Disney_March_14.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>April</h1>
+      I might be off a month, but Graduation at Yale is such a big deal that it spilt over into April. Forget studying for Finals, Spring Fling is approaching and so is commencement!
+      </div>
+      <div class= "picture" style="background-image: url('images/Graduation_May_14.jpg');">
+      </div>
+    </div>
+    <div class="pic">
+      <div class= "description">
+      <h1>May</h1>
+      Happy Birthday Mom!
+      Also, since I won't get a chance to do June (this calendar only has 12 months after all, I'll give you a sneak peak of what happened the next month) I went to the Belmont Stakes! The days are swift during the summer, there is too much to do and never enough time for it all! Somehow I am going to try to do it all!
+      </div>
+      <div class= "picture" style="background-image: url('images/Belmont_June_14.jpg');">
+      </div>
+    </div>
+	</div>
+</body>
+
+</html>
